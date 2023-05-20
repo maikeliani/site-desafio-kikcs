@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="stylesheet" href="./styles/style1.css">
+    <script src="./scripts/script1.js"></script> 
+    <script src=""></script>
+    <title>Mundo Animal</title>
+     <script>
+        function MostraCoelho() {
+    var coelho = document.getElementById("coelho").style.display='block' ;   
+}
+
+function EscondeTodosOsParagrafos(){
+    var paragrafo = document.getElementsByTagName('p').style.display='none';
+}
+  
+    </script>
+</head> 
+<body>
+     <style>
+
+
+  </style>
+</head>
+<body>
+    <div id="header">
+        <div id="cabeçalho">MUNDO ANIMAL</div>
+        <div id="menu-header">
+            <ul>
+                <li> PETS </li>
+                <li> SELVAGENS </li>
+                <li> INICIO </li>
+                <li> EM EXTINÇÃO </li>
+                <li> EXTINTOS </li>
+            </ul>
+        </div><!--MENU-HEADER-->
+     </div><!--FECHA HEADER-->
+  <div id="main">
+    <div id="menu-lateral">
+        <ul>
+            <li>AVES</li>
+            <li>REPTEIS</li>
+            <li>MAMÍFEROS</li>
+            <li>PEIXES</li>
+            <li>ANFÍBIOS</li>                    
+        </ul>
+    </div>
+    <div id="pacote">
+       <div class="box"><button type="button" onclick="MostraCoelho()"><img src="./img/coelho.jpg" alt="coelho"></button></div>
+       <div class="box"><button type="button"><img src="./img/elefante.jpg" alt="elefante"></button></div>
+       <div class="box"><button type="button"><img src="./img/gato.jpg" alt="gato"></button></div>
+       <div class="box"><button type="button"><img src="./img/girafas.jpg" alt="girafa"></button></div>
+       <div class="box"><button type="button"><img src="./img/leão.jpg" alt="leão"></button></div>
+       <div class="box"><button type="button"><img src="./img/macaco.jpg" alt="macaco"></button></div>
+       <div class="box"><button type="button"><img src="./img/MORCEGO.webp" alt="morcego"></button></div>
+       <div class="box"><button type="button"><img src="./img/ornitorrinco.jpg" alt="ornitorrinco"></button></div>
+       <div class="box"><button type="button"><img src="./img/cachorro.jpg" alt="cachorro"></button></div>
+       <div class="box"><button type="button"><img src="./img/coruja.jpg" alt="coruja"></button></div>
+       <div class="box"><button type="button"><img src="./img/passarinhos.jpg" alt="pássaros"></button></div>
+       <div class="box"><button type="button" onclick="EscondeTodosOsParagrafos()"><img src="./img/porco.jpg" alt="porco"></button></div>
+   </div><!--fecha pacote-->
+  </div><!--fecha main-->
+  <div id="descrição">
+    
+        <p class="descricao_animal" id="coelho"><b>O coelho é um mamífero cujo corpo é coberto por uma pelagem densa e parecida com lã. Sua
+             cabeça é ovalada e seus olhos grandes. <br>
+             Seu peso varia entre 1,5 e 2,5 kg, suas orelhas podem medir até 7 cm e sua cauda é bem curta.
+              As patas posteriores são maiores do que as anteriores. 
+              O comprimento do coelho oscila entre 33 e 50 cm.</b></p>        
+    </div><!--fecha descrição-->
+    <div id="rodape"><p>desenvolvido por Maikel Jefferson Martins Iani</p></div>
+
+    
+</body>
+
+</html>
